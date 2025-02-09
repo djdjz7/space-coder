@@ -54,6 +54,7 @@ watch(cipher, (value) => {
   <h1>Space Coder</h1>
   <textarea placeholder="明文" v-model.lazy="plain"></textarea>
   <textarea placeholder="密文" v-model.lazy="cipher"></textarea>
+  <a href="https://github.com/djdjz7/space-coder/" style="margin-top: 1em; display: block;">Source Code</a>
 </template>
 
 <style scoped>
